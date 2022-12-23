@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js" defer>
+    </script>
+</head>
+<body>
+    <div>
+        <caption><h3  class="Heading">SIMPLE CALCULATOR</h3></caption>
+        <table border="1">
+            <tr >
+                <td colspan="3"><input type="text" id="res"></td>
+                <td><button class="btn" onclick="ac()">AC</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn" onclick="show('1')">1</button></td>
+                <td><button class="btn" onclick="show('2')">2</button></td>
+                <td><button class="btn" onclick="show('3')">3</button></td>
+                <td><button class="btn" onclick="show('+')">+</button></td>
+            </tr>
+             <tr>
+                <td><button class="btn" onclick="show('4')">4</button></td>
+                <td><button class="btn" onclick="show('5')">5</button></td>
+                <td><button class="btn" onclick="show('6')">6</button></td>
+                <td><button class="btn" onclick="show('-')">-</button></td>
+            </tr>
+             <tr>
+                <td><button class="btn" onclick="show('7')">7</button></td>
+                <td><button class="btn" onclick="show('8')">8</button></td>
+                <td><button class="btn" onclick="show('9')">9</button></td>
+                <td><button class="btn" onclick="show('*')">*</button></td>
+            </tr>
+             <tr>
+                <td><button class="btn" onclick="show('0')">0</button></td>
+                <td><button class="btn" onclick="show('/')">/</button></td>
+                <td><button class="btn" onclick="show('%')">%</button></td>
+                <td><button class="btn1" onclick="cal()">=</button></td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html>
